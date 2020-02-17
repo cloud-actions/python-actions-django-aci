@@ -6,7 +6,7 @@ RESOURCE_GROUP='200200-actions'
 LOCATION='eastus'
 RANDOM_STR='09c205'
 # [[ -z "$RANDOM_STR" ]] && RANDOM_STR=$(openssl rand -hex 3)
-REPOSITORY_NAME="hello-django"
+REPOSITORY_NAME="hello-vscode-django"
 
 # create container registry
 REGISTRY_NAME="acr${RANDOM_STR}"
